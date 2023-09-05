@@ -1,0 +1,17 @@
+{
+  "name": "03-local-modul",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./src/index.js",
+    "./kalkulator": "./src/module/kalkulator.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

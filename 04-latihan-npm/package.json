@@ -1,0 +1,30 @@
+{
+  "name": "latihan",
+  "version": "1.0.0",
+  "description": "latihan npm",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./gen": "./src/generate.js"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "prestart": "echo 'dijalankan sebelum start'",
+    "start": "node ./src/index.js",
+    "poststart": "echo 'ini dijalankan setelah start'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "latihan",
+    "npm"
+  ],
+  "author": "pojok code",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
