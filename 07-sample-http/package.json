@@ -2,16 +2,16 @@
   "name": "07-sample-http",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "./src/index.js",
   "scripts": {
-    "dev": "nodemon app.js",
+    "dev": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^3.0.1"
   }
 }
